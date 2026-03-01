@@ -1,0 +1,1311 @@
+{
+  "_schema_version": "1.0",
+  "_description": "Key-text registry for Beale Cipher key-text hunting. Each entry describes a candidate text.",
+  "_fields": {
+    "id": "unique slug used as filename stem",
+    "title": "human-readable title",
+    "year": "approximate year of publication (0 if unknown)",
+    "source": "URL or 'manual' or 'project_gutenberg'",
+    "notes": "provenance or other context",
+    "tokenizer_preset": "tokenizer preset name from TokenizerRegistry, or 'default'",
+    "min_tokens_required": "minimum tokens the cipher needs (e.g. 2906 for Cipher 1)"
+  },
+  "keytexts": [
+    {
+      "id": "us_constitution",
+      "title": "United States Constitution (original + amendments 1-12)",
+      "year": 1787,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "notes": "Original 7 articles + Bill of Rights + Amendments 11-12. Available in 1820.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "common_sense",
+      "title": "Common Sense - Thomas Paine (1776)",
+      "year": 1776,
+      "source": "project_gutenberg",
+      "notes": "Hugely popular pamphlet, widely available in early America. ~20k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "age_of_reason_p1",
+      "title": "The Age of Reason Part 1 - Thomas Paine (1794)",
+      "year": 1794,
+      "source": "project_gutenberg",
+      "notes": "Part 1 of Paine's deist work. Controversial but widely read. ~30k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "rights_of_man",
+      "title": "Rights of Man - Thomas Paine (1791)",
+      "year": 1791,
+      "source": "project_gutenberg",
+      "notes": "Defense of the French Revolution. Very widely circulated. ~60k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "federalist_papers",
+      "title": "The Federalist Papers - Hamilton, Madison, Jay (1788)",
+      "year": 1788,
+      "source": "project_gutenberg",
+      "notes": "85 essays on the Constitution. ~200k words total. Widely available.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "articles_of_confederation",
+      "title": "Articles of Confederation (1777)",
+      "year": 1777,
+      "source": "manual",
+      "notes": "Predecessor to the Constitution. ~3,500 words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "washington_farewell",
+      "title": "Washington's Farewell Address (1796)",
+      "year": 1796,
+      "source": "manual",
+      "notes": "Published in newspapers. ~6,000 words. Well-known in 1820.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "notes_virginia",
+      "title": "Notes on the State of Virginia - Thomas Jefferson (1785)",
+      "year": 1785,
+      "source": "project_gutenberg",
+      "notes": "Jefferson's only full-length book. ~80k words. Very long.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "prince_machiavelli",
+      "title": "The Prince - Nicolo Machiavelli (1532, English trans.)",
+      "year": 1532,
+      "source": "project_gutenberg",
+      "notes": "Classic political treatise. English translations available in 1820. ~26k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "declaration_independence",
+      "title": "Declaration of Independence (1776)",
+      "year": 1776,
+      "source": "manual",
+      "notes": "Known key for Cipher 2. Too short for C1 (max=2906) but useful as baseline.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "monroe_doctrine",
+      "title": "Monroe Doctrine and Related Documents",
+      "year": 1823,
+      "source": "gutenberg:15553",
+      "notes": "PG#15553",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "autobiography_franklin",
+      "title": "Autobiography of Benjamin Franklin (1791)",
+      "year": 1791,
+      "source": "project_gutenberg",
+      "notes": "Very popular in early America. ~62k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "pilgrims_progress",
+      "title": "Pilgrim's Progress - John Bunyan (1678)",
+      "year": 1678,
+      "source": "project_gutenberg",
+      "notes": "Most widely read book in early America after the Bible. ~100k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "robinson_crusoe",
+      "title": "Robinson Crusoe - Daniel Defoe (1719)",
+      "year": 1719,
+      "source": "project_gutenberg",
+      "notes": "Extremely popular in early America. ~120k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "paradise_lost",
+      "title": "Paradise Lost - John Milton (1667)",
+      "year": 1667,
+      "source": "project_gutenberg",
+      "notes": "Major literary work available in 1820s America. ~80k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "wealth_of_nations",
+      "title": "Wealth of Nations - Adam Smith (1776)",
+      "year": 1776,
+      "source": "project_gutenberg",
+      "notes": "Influential economic treatise. Available in early America. ~200k+ words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "two_treatises_govt",
+      "title": "Second Treatise of Government - John Locke (1689)",
+      "year": 1689,
+      "source": "project_gutenberg",
+      "notes": "Foundational influence on American government. ~40k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "last_of_mohicans",
+      "title": "The Last of the Mohicans - James F. Cooper (1826)",
+      "year": 1826,
+      "source": "project_gutenberg",
+      "notes": "Hugely popular American novel from the Beale era. ~120k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "spy_cooper",
+      "title": "The Spy: A Tale of the Neutral Ground - James F. Cooper (1821)",
+      "year": 1821,
+      "source": "project_gutenberg",
+      "notes": "First major American novel. Published 1821, contemporary with Beale. ~100k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "king_james_genesis",
+      "title": "King James Bible - Book of Genesis",
+      "year": 1611,
+      "source": "manual",
+      "notes": "The Bible was the most common book in 1820s America. Genesis alone ~38k words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "king_james_full",
+      "title": "King James Bible (complete)",
+      "year": 1611,
+      "source": "project_gutenberg",
+      "notes": "Complete KJV Bible. ~790k words. The single most available book in 1820s Virginia.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "virginia_religious_freedom",
+      "title": "Virginia Statute for Religious Freedom - Jefferson (1786)",
+      "year": 1786,
+      "source": "manual",
+      "notes": "Short but historically significant Virginia document. ~1000 words. For C3 only.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "kentucky_resolutions",
+      "title": "Kentucky Resolutions - Thomas Jefferson (1798)",
+      "year": 1798,
+      "source": "manual",
+      "notes": "States' rights document. ~3,500 words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "magna_carta",
+      "title": "Magna Carta (1215, English translation)",
+      "year": 1215,
+      "source": "manual",
+      "notes": "Available in English translation in 1820s. ~3,500 words.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "doi_beale_adjusted",
+      "title": "Declaration of Independence (Beale adjusted edition)",
+      "year": 1776,
+      "source": "corpus/CANON_DOI.json",
+      "notes": "Known Cipher 2 key. Too short for C1 but baseline calibration.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "blackstone_bk1",
+      "title": "Commentaries on the Laws of England, Book 1: Rights of Persons",
+      "year": 1765,
+      "source": "https://www.gutenberg.org/cache/epub/30802/pg30802.txt",
+      "notes": "Most widely cited legal text in early America. Every Virginia lawyer owned a copy.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "blackstone_bk2",
+      "title": "Commentaries on the Laws of England, Book 2: Rights of Things",
+      "year": 1766,
+      "source": "https://www.gutenberg.org/cache/epub/30368/pg30368.txt",
+      "notes": "Property law — extremely relevant for a land/treasure context.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "blackstone_bk3",
+      "title": "Commentaries on the Laws of England, Book 3: Private Wrongs",
+      "year": 1768,
+      "source": "https://www.gutenberg.org/cache/epub/30367/pg30367.txt",
+      "notes": "Civil law volume.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "blackstone_bk4",
+      "title": "Commentaries on the Laws of England, Book 4: Public Wrongs",
+      "year": 1769,
+      "source": "https://www.gutenberg.org/cache/epub/30366/pg30366.txt",
+      "notes": "Criminal law volume.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "marshall_washington_v1",
+      "title": "The Life of George Washington, Vol. 1",
+      "year": 1804,
+      "source": "https://www.gutenberg.org/cache/epub/18591/pg18591.txt",
+      "notes": "By the Chief Justice. The definitive Washington biography of the era.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "marshall_washington_v2",
+      "title": "The Life of George Washington, Vol. 2",
+      "year": 1805,
+      "source": "https://www.gutenberg.org/cache/epub/18592/pg18592.txt",
+      "notes": "Volume 2 of Marshall's Life of Washington.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "marshall_washington_v3",
+      "title": "The Life of George Washington, Vol. 3",
+      "year": 1805,
+      "source": "https://www.gutenberg.org/cache/epub/18593/pg18593.txt",
+      "notes": "Volume 3 of Marshall's Life of Washington.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "marshall_washington_v4",
+      "title": "The Life of George Washington, Vol. 4",
+      "year": 1807,
+      "source": "https://www.gutenberg.org/cache/epub/18594/pg18594.txt",
+      "notes": "Volume 4 of Marshall's Life of Washington.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "marshall_washington_v5",
+      "title": "The Life of George Washington, Vol. 5",
+      "year": 1807,
+      "source": "https://www.gutenberg.org/cache/epub/18595/pg18595.txt",
+      "notes": "Volume 5 of Marshall's Life of Washington.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "vicar_of_wakefield",
+      "title": "The Vicar of Wakefield",
+      "year": 1766,
+      "source": "https://www.gutenberg.org/cache/epub/2667/pg2667.txt",
+      "notes": "Enormously popular novel in early America. Short enough to memorize key passages.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "rasselas",
+      "title": "The History of Rasselas, Prince of Abissinia",
+      "year": 1759,
+      "source": "https://www.gutenberg.org/cache/epub/652/pg652.txt",
+      "notes": "Very widely read moral tale. Available in 1820s Virginia.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "ivanhoe",
+      "title": "Ivanhoe: A Romance",
+      "year": 1819,
+      "source": "https://www.gutenberg.org/cache/epub/82/pg82.txt",
+      "notes": "Massive bestseller in 1819. Contemporary with Beale. Scott was huge in Virginia.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "rob_roy",
+      "title": "Rob Roy",
+      "year": 1817,
+      "source": "https://www.gutenberg.org/cache/epub/7025/pg7025.txt",
+      "notes": "Another major Scott novel, published 1817.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "waverley",
+      "title": "Waverley; Or, 'Tis Sixty Years Since",
+      "year": 1814,
+      "source": "https://www.gutenberg.org/cache/epub/5998/pg5998.txt",
+      "notes": "Scott's first novel, extremely popular. Published anonymously.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "don_juan_byron",
+      "title": "Don Juan",
+      "year": 1819,
+      "source": "https://www.gutenberg.org/cache/epub/21700/pg21700.txt",
+      "notes": "Byron's masterpiece, published 1819-1824. Poetry but very long.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "childe_harold",
+      "title": "Childe Harold's Pilgrimage",
+      "year": 1812,
+      "source": "https://www.gutenberg.org/cache/epub/5131/pg5131.txt",
+      "notes": "Byron's famous narrative poem, 1812-1818.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "letters_american_farmer",
+      "title": "Letters from an American Farmer",
+      "year": 1782,
+      "source": "https://www.gutenberg.org/cache/epub/4666/pg4666.txt",
+      "notes": "Classic text on American identity. Well-known in Virginia.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "gullivers_travels",
+      "title": "Gulliver's Travels",
+      "year": 1726,
+      "source": "https://www.gutenberg.org/cache/epub/829/pg829.txt",
+      "notes": "Universally known satire. Available in every bookshop.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "spectator_essays",
+      "title": "The Spectator (Addison & Steele essays)",
+      "year": 1711,
+      "source": "https://www.gutenberg.org/cache/epub/12030/pg12030.txt",
+      "notes": "Enormously influential essays, reprinted constantly. Very long compilation.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "spirit_of_laws",
+      "title": "The Spirit of the Laws",
+      "year": 1748,
+      "source": "https://www.gutenberg.org/cache/epub/27573/pg27573.txt",
+      "notes": "Foundational legal/political text. English translations widely available. May be French on Gutenberg.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "pioneers_cooper",
+      "title": "The Pioneers, or The Sources of the Susquehanna",
+      "year": 1823,
+      "source": "https://www.gutenberg.org/cache/epub/2275/pg2275.txt",
+      "notes": "Cooper's first Leatherstocking novel. Contemporary with Beale.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "sketch_book_irving",
+      "title": "The Sketch Book of Geoffrey Crayon, Gent.",
+      "year": 1819,
+      "source": "https://www.gutenberg.org/cache/epub/2048/pg2048.txt",
+      "notes": "Contains Rip Van Winkle + Legend of Sleepy Hollow. 1819-1820, hugely popular.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "tristram_shandy",
+      "title": "The Life and Opinions of Tristram Shandy, Gentleman",
+      "year": 1759,
+      "source": "https://www.gutenberg.org/cache/epub/1079/pg1079.txt",
+      "notes": "Hugely popular 18th century novel, widely read in America.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "tom_jones",
+      "title": "The History of Tom Jones, A Foundling",
+      "year": 1749,
+      "source": "https://www.gutenberg.org/cache/epub/6593/pg6593.txt",
+      "notes": "Classic English novel, enormously popular in colonial/early America.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "decline_fall_rome_v1",
+      "title": "The History of the Decline and Fall of the Roman Empire, Vol. 1",
+      "year": 1776,
+      "source": "https://www.gutenberg.org/cache/epub/25717/pg25717.txt",
+      "notes": "Gibbon's masterwork. Well-known to educated Americans. Vol 1.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "history_england_hume",
+      "title": "The History of England, Vol. 1",
+      "year": 1754,
+      "source": "https://www.gutenberg.org/cache/epub/10574/pg10574.txt",
+      "notes": "Hume's History was standard reading for educated Americans.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "webb_freemason_monitor",
+      "title": "The Freemason's Monitor, or Illustrations of Masonry - Thomas Smith Webb",
+      "year": 1797,
+      "source": "archive.org",
+      "notes": "Standard Masonic handbook in early America. HIGH PRIORITY. 1865 Cincinnati edition OCR.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "anderson_constitutions",
+      "title": "The Constitutions of the Free-Masons - James Anderson (1723)",
+      "year": 1723,
+      "source": "archive.org",
+      "notes": "Foundational Masonic document. 1723 edition.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "columbian_orator",
+      "title": "The Columbian Orator",
+      "year": 1797,
+      "source": "todo",
+      "notes": "TODO: Search Internet Archive. Major American school textbook. Frederick Douglass's schoolbook.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "weems_washington",
+      "title": "A History of the Life and Death, Virtues and Exploits of General George Washington",
+      "year": 1800,
+      "source": "todo",
+      "notes": "TODO: Search Internet Archive. Most popular biography in early America. 'Cherry tree' story origin.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "morse_geography",
+      "title": "The American Geography, or A View of the Present Situation of the United States",
+      "year": 1789,
+      "source": "todo",
+      "notes": "TODO: Search Internet Archive / Google Books. Standard American geography textbook.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "burk_history_virginia",
+      "title": "The History of Virginia",
+      "year": 1804,
+      "source": "todo",
+      "notes": "TODO: Search Internet Archive. Virginia-specific history, 4 volumes, 1804-1816.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "american_preceptor",
+      "title": "The American Preceptor",
+      "year": 1794,
+      "source": "todo",
+      "notes": "TODO: Search Internet Archive. Widely used school reader. Companion to Columbian Orator.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "webster_spelling",
+      "title": "The American Spelling Book",
+      "year": 1783,
+      "source": "todo",
+      "notes": "TODO: Most printed book in America. May be too short for C1 but test for C3.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "cato_letters",
+      "title": "Cato's Letters, or Essays on Liberty",
+      "year": 1720,
+      "source": "todo",
+      "notes": "TODO: Search Internet Archive / Liberty Fund. Hugely influential on American founders.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "life_of_franklin_himself",
+      "title": "Memoirs of the Life of Benjamin Franklin (1818 edition)",
+      "year": 1818,
+      "source": "https://www.gutenberg.org/cache/epub/63629/pg63629.txt",
+      "notes": "1818 London edition with correspondence. Different from the Autobiography.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "emma_austen",
+      "title": "Emma",
+      "year": 1815,
+      "source": "https://www.gutenberg.org/cache/epub/158/pg158.txt",
+      "notes": "Published 1815. Austen was read in America by the 1820s.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "pride_prejudice",
+      "title": "Pride and Prejudice",
+      "year": 1813,
+      "source": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+      "notes": "Published 1813. American editions from 1832 but earlier copies circulated.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "jefferson_inaugural_1801",
+      "title": "Thomas Jefferson's First Inaugural Address",
+      "year": 1801,
+      "source": "todo",
+      "notes": "TODO: Short (~2500 words) but very well-known in Virginia. Test for C3.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "tale_of_two_cities",
+      "title": "Clarissa, or, The History of a Young Lady",
+      "year": 1748,
+      "source": "https://www.gutenberg.org/cache/epub/9296/pg9296.txt",
+      "notes": "Longest English novel. Extremely well known. Richardson was huge in early America.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "pamela_richardson",
+      "title": "Pamela; Or, Virtue Rewarded",
+      "year": 1740,
+      "source": "https://www.gutenberg.org/cache/epub/6124/pg6124.txt",
+      "notes": "First major English novel. Very widely read in colonial America.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "cook_voyages",
+      "title": "Captain Cook's Journal During the First Voyage Round the World",
+      "year": 1768,
+      "source": "https://www.gutenberg.org/cache/epub/8106/pg8106.txt",
+      "notes": "Adventure narrative. Beale and companions were adventurers heading west.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "lewis_clark",
+      "title": "The Journals of Lewis and Clark",
+      "year": 1814,
+      "source": "https://www.gutenberg.org/cache/epub/8419/pg8419.txt",
+      "notes": "Published 1814. Westward exploration narrative — relevant to Beale's journey west.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "jeffersons_manual",
+      "title": "A Manual of Parliamentary Practice",
+      "year": 1801,
+      "source": "https://www.gutenberg.org/cache/epub/45510/pg45510.txt",
+      "notes": "Jefferson's rules of order. Well-known Virginia civic text.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "preston_illustrations_masonry",
+      "title": "Illustrations of Masonry - William Preston (1867 edition)",
+      "year": 1772,
+      "source": "archive.org",
+      "notes": "Major Masonic educational text. 1867 reprint of an 18th century classic.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "hening_statutes_v1",
+      "title": "Hening's Statutes at Large, Vol 1 (1619-1660)",
+      "year": 1823,
+      "source": "archive.org",
+      "notes": "Virginia laws compilation. Published 1823 by William Waller Hening. Contemporary with Beale.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "hening_statutes_v7",
+      "title": "Hening's Statutes at Large, Vol 7 (1756-1763)",
+      "year": 1823,
+      "source": "archive.org",
+      "notes": "Virginia laws, Vol 7. Published 1823.",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 0
+    },
+    {
+      "id": "bible_asv",
+      "title": "American Standard Version Bible",
+      "year": 1901,
+      "source": "gutenberg:8001",
+      "notes": "PG#8001",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "kjv_bible",
+      "title": "King James Bible (Complete)",
+      "year": 1611,
+      "source": "gutenberg:10",
+      "notes": "PG#10",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "psalms_metre",
+      "title": "Psalms of David in Metre",
+      "year": 1650,
+      "source": "gutenberg:8300",
+      "notes": "PG#8300",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "practice_piety",
+      "title": "Practice of Piety",
+      "year": 1612,
+      "source": "gutenberg:7849",
+      "notes": "PG#7849",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "masonic_trestle",
+      "title": "Masonic Trestle-Board",
+      "year": 1846,
+      "source": "gutenberg:22384",
+      "notes": "PG#22384",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "morals_dogma",
+      "title": "Morals and Dogma - Albert Pike",
+      "year": 1871,
+      "source": "gutenberg:42741",
+      "notes": "PG#42741",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "us_bill_of_rights",
+      "title": "US Bill of Rights",
+      "year": 1791,
+      "source": "gutenberg:5",
+      "notes": "PG#5",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "articles_confederation",
+      "title": "Articles of Confederation",
+      "year": 1781,
+      "source": "gutenberg:815",
+      "notes": "PG#815",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "locke_civil_govt",
+      "title": "Second Treatise of Civil Government - Locke",
+      "year": 1690,
+      "source": "gutenberg:2008",
+      "notes": "PG#2008",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "virginia_bill_rights",
+      "title": "Virginia Declaration of Rights",
+      "year": 1776,
+      "source": "gutenberg:7370",
+      "notes": "PG#7370",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "letters_jefferson",
+      "title": "Letters of Thomas Jefferson",
+      "year": 1800,
+      "source": "gutenberg:3743",
+      "notes": "PG#3743",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "virginia_code_1819",
+      "title": "Virginia Revised Code 1819",
+      "year": 1819,
+      "source": "gutenberg:16960",
+      "notes": "PG#16960",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "state_of_union_1800s",
+      "title": "State of the Union Addresses (early)",
+      "year": 1790,
+      "source": "gutenberg:1404",
+      "notes": "PG#1404",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "annals_congress",
+      "title": "Annals of Congress Selections",
+      "year": 1789,
+      "source": "gutenberg:5669",
+      "notes": "PG#5669",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "marshall_life_wash_sel",
+      "title": "Life of Washington Selections - Marshall",
+      "year": 1805,
+      "source": "gutenberg:18993",
+      "notes": "PG#18993",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "jeffersons_bible",
+      "title": "Jefferson's Bible",
+      "year": 1820,
+      "source": "gutenberg:10907",
+      "notes": "PG#10907",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "notes_virginia_jeff",
+      "title": "Notes on Virginia - Jefferson",
+      "year": 1785,
+      "source": "gutenberg:3032",
+      "notes": "PG#3032",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "rip_van_winkle",
+      "title": "Rip Van Winkle - Irving",
+      "year": 1819,
+      "source": "gutenberg:320",
+      "notes": "PG#320",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "legend_sleepy_hollow",
+      "title": "Legend of Sleepy Hollow - Irving",
+      "year": 1820,
+      "source": "gutenberg:2188",
+      "notes": "PG#2188",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "tom_sawyer",
+      "title": "Tom Sawyer - Twain",
+      "year": 1876,
+      "source": "gutenberg:41",
+      "notes": "PG#41",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "adventures_huck_finn",
+      "title": "Huck Finn - Twain",
+      "year": 1884,
+      "source": "gutenberg:76",
+      "notes": "PG#76",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "history_ny_knickerbocker",
+      "title": "History of New York - Irving",
+      "year": 1809,
+      "source": "gutenberg:6593",
+      "notes": "PG#6593",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "wieland_brown",
+      "title": "Wieland - Charles Brockden Brown",
+      "year": 1798,
+      "source": "gutenberg:809",
+      "notes": "PG#809",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "arabian_nights",
+      "title": "Arabian Nights",
+      "year": 1706,
+      "source": "gutenberg:28885",
+      "notes": "PG#28885",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "moby_dick",
+      "title": "Moby Dick - Melville",
+      "year": 1851,
+      "source": "gutenberg:2701",
+      "notes": "PG#2701",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "frankenstein",
+      "title": "Frankenstein - Shelley",
+      "year": 1818,
+      "source": "gutenberg:84",
+      "notes": "PG#84",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "tale_two_cities",
+      "title": "Tale of Two Cities - Dickens",
+      "year": 1859,
+      "source": "gutenberg:98",
+      "notes": "PG#98",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "complete_shakespeare",
+      "title": "Complete Works of Shakespeare",
+      "year": 1600,
+      "source": "gutenberg:100",
+      "notes": "PG#100",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "middlemarch",
+      "title": "Middlemarch - Eliot",
+      "year": 1872,
+      "source": "gutenberg:145",
+      "notes": "PG#145",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "sense_sensibility",
+      "title": "Sense and Sensibility - Austen",
+      "year": 1811,
+      "source": "gutenberg:161",
+      "notes": "PG#161",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "northanger_abbey",
+      "title": "Northanger Abbey - Austen",
+      "year": 1817,
+      "source": "gutenberg:121",
+      "notes": "PG#121",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "persuasion",
+      "title": "Persuasion - Austen",
+      "year": 1817,
+      "source": "gutenberg:105",
+      "notes": "PG#105",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "emma",
+      "title": "Emma - Austen",
+      "year": 1815,
+      "source": "gutenberg:158",
+      "notes": "PG#158",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "dracula",
+      "title": "Dracula - Stoker",
+      "year": 1897,
+      "source": "gutenberg:345",
+      "notes": "PG#345",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "ulysses",
+      "title": "Ulysses - Joyce",
+      "year": 1922,
+      "source": "gutenberg:4300",
+      "notes": "PG#4300",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "dorian_gray",
+      "title": "Picture of Dorian Gray - Wilde",
+      "year": 1890,
+      "source": "gutenberg:174",
+      "notes": "PG#174",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "anne_of_green_gables",
+      "title": "Anne of Green Gables",
+      "year": 1908,
+      "source": "gutenberg:45",
+      "notes": "PG#45",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "sherlock_holmes",
+      "title": "Adventures of Sherlock Holmes",
+      "year": 1892,
+      "source": "gutenberg:1661",
+      "notes": "PG#1661",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "oliver_twist",
+      "title": "Oliver Twist - Dickens",
+      "year": 1838,
+      "source": "gutenberg:730",
+      "notes": "PG#730",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "jane_eyre",
+      "title": "Jane Eyre - Bronte",
+      "year": 1847,
+      "source": "gutenberg:1260",
+      "notes": "PG#1260",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "wuthering_heights",
+      "title": "Wuthering Heights - Bronte",
+      "year": 1847,
+      "source": "gutenberg:768",
+      "notes": "PG#768",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "grimms_fairy_tales",
+      "title": "Grimm's Fairy Tales",
+      "year": 1812,
+      "source": "gutenberg:2591",
+      "notes": "PG#2591",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "aesops_fables",
+      "title": "Aesop's Fables",
+      "year": 1820,
+      "source": "gutenberg:17396",
+      "notes": "PG#17396",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "night_thoughts",
+      "title": "Night Thoughts - Young",
+      "year": 1742,
+      "source": "gutenberg:14859",
+      "notes": "PG#14859",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "seasons_thomson",
+      "title": "The Seasons - Thomson",
+      "year": 1730,
+      "source": "gutenberg:4705",
+      "notes": "PG#4705",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "essay_on_man_pope",
+      "title": "Essay on Man - Pope",
+      "year": 1734,
+      "source": "gutenberg:5316",
+      "notes": "PG#5316",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "leviathan",
+      "title": "Leviathan - Hobbes",
+      "year": 1651,
+      "source": "gutenberg:3207",
+      "notes": "PG#3207",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "enquiry_understanding_hume",
+      "title": "Enquiry Concerning Human Understanding - Hume",
+      "year": 1748,
+      "source": "gutenberg:4363",
+      "notes": "PG#4363",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "republic_plato",
+      "title": "Republic - Plato",
+      "year": -380,
+      "source": "gutenberg:1497",
+      "notes": "PG#1497",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "meditations_aurelius",
+      "title": "Meditations - Marcus Aurelius",
+      "year": 180,
+      "source": "gutenberg:5827",
+      "notes": "PG#5827",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "moral_sentiments_smith",
+      "title": "Theory of Moral Sentiments - Smith",
+      "year": 1759,
+      "source": "gutenberg:10616",
+      "notes": "PG#10616",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "emile_rousseau",
+      "title": "Emile - Rousseau",
+      "year": 1762,
+      "source": "gutenberg:1228",
+      "notes": "PG#1228",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "social_contract_rousseau",
+      "title": "Social Contract - Rousseau",
+      "year": 1762,
+      "source": "gutenberg:46333",
+      "notes": "PG#46333",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "annals_tacitus",
+      "title": "Annals of Tacitus",
+      "year": 116,
+      "source": "gutenberg:3296",
+      "notes": "PG#3296",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "voyage_beagle",
+      "title": "Voyage of the Beagle - Darwin",
+      "year": 1839,
+      "source": "gutenberg:10800",
+      "notes": "PG#10800",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "iliad_pope",
+      "title": "Iliad (Pope translation)",
+      "year": 1715,
+      "source": "gutenberg:6130",
+      "notes": "PG#6130",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "odyssey_pope",
+      "title": "Odyssey (Pope translation)",
+      "year": 1726,
+      "source": "gutenberg:3160",
+      "notes": "PG#3160",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "aeneid_dryden",
+      "title": "Aeneid (Dryden translation)",
+      "year": 1697,
+      "source": "gutenberg:3608",
+      "notes": "PG#3608",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "poor_richard_almanack",
+      "title": "Poor Richard's Almanack - Franklin",
+      "year": 1758,
+      "source": "gutenberg:12814",
+      "notes": "PG#12814",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "farmers_almanac",
+      "title": "Old Farmer's Almanac excerpts",
+      "year": 1792,
+      "source": "gutenberg:20203",
+      "notes": "PG#20203",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "pilgrims_progress_2",
+      "title": "Pilgrim's Progress Part 2 - Bunyan",
+      "year": 1684,
+      "source": "gutenberg:1552",
+      "notes": "PG#1552",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "grace_abounding",
+      "title": "Grace Abounding - Bunyan",
+      "year": 1666,
+      "source": "gutenberg:4934",
+      "notes": "PG#4934",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "sermons_wesley",
+      "title": "Sermons of John Wesley",
+      "year": 1771,
+      "source": "gutenberg:6316",
+      "notes": "PG#6316",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "city_of_god",
+      "title": "City of God - Augustine",
+      "year": 426,
+      "source": "gutenberg:22120",
+      "notes": "PG#22120",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "paradise_regained",
+      "title": "Paradise Regained - Milton",
+      "year": 1671,
+      "source": "gutenberg:1581",
+      "notes": "PG#1581",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "king_lear",
+      "title": "King Lear - Shakespeare",
+      "year": 1606,
+      "source": "gutenberg:58",
+      "notes": "PG#58",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "hamlet",
+      "title": "Hamlet - Shakespeare",
+      "year": 1603,
+      "source": "gutenberg:1524",
+      "notes": "PG#1524",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "romeo_juliet",
+      "title": "Romeo and Juliet - Shakespeare",
+      "year": 1597,
+      "source": "gutenberg:1513",
+      "notes": "PG#1513",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "tempest_shakespeare",
+      "title": "The Tempest - Shakespeare",
+      "year": 1611,
+      "source": "gutenberg:23042",
+      "notes": "PG#23042",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "travels_bartram",
+      "title": "Travels - William Bartram",
+      "year": 1791,
+      "source": "gutenberg:7466",
+      "notes": "PG#7466",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "virginia_comedians",
+      "title": "Virginia Comedians",
+      "year": 1854,
+      "source": "gutenberg:4957",
+      "notes": "PG#4957",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    },
+    {
+      "id": "byrd_westover",
+      "title": "History of the Dividing Line - William Byrd",
+      "year": 1728,
+      "source": "gutenberg:10339",
+      "notes": "PG#10339",
+      "tokenizer_preset": "default",
+      "min_tokens_required": 975
+    }
+  ]
+}

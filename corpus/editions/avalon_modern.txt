@@ -1,0 +1,25 @@
+[PLACEHOLDER - TO BE ACQUIRED]
+
+Edition: Yale Avalon Project (Modern Transcript)
+Edition ID: avalon_modern
+Date: 1776-07-04
+Provenance: Yale Law School Avalon Project digital transcript
+Notes: Modern scholarly transcript, likely based on Stone engraving or National Archives
+
+ACQUISITION INSTRUCTIONS:
+1. Search for: Yale Avalon Project Declaration of Independence
+
+2. Known authoritative URLs:
+   - https://avalon.law.yale.edu/18th_century/declare.asp
+
+3. Copy the full Declaration text (body only, no modern commentary)
+
+4. Replace this file's contents with the actual DOI text
+
+5. Run: python scripts/acquire_doi_editions.py --register avalon_modern
+
+IMPORTANT NOTES:
+- Preserve original spelling, capitalization, and punctuation
+- Include/exclude header line based on source (note in metadata)
+- Include/exclude signer names based on source (note in metadata)
+- Keep hyphens as they appear: "self-evident" vs "self evident"

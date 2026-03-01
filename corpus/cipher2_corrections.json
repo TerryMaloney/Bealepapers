@@ -1,0 +1,949 @@
+{
+  "provenance": "Needleman-Wunsch alignment of decoded (beale_adjusted_doi + canonical cipher2) vs known plaintext",
+  "decoded_length": 763,
+  "known_length": 732,
+  "aligned_length": 788,
+  "counts": {
+    "match": 658,
+    "substitute": 49,
+    "insert": 56,
+    "delete": 25
+  },
+  "alignment_match_pct": 89.89,
+  "non_match_operations": [
+    {
+      "type": "substitute",
+      "cipher_pos": 10,
+      "cipher_num": 647,
+      "decoded_char": "O",
+      "known_idx": 10,
+      "known_char": "I"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 38,
+      "cipher_num": 554,
+      "decoded_char": "C",
+      "known_idx": 38,
+      "known_char": "T"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 106,
+      "cipher_num": 620,
+      "decoded_char": "T",
+      "known_idx": 106,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 145,
+      "cipher_num": 607,
+      "decoded_char": "O",
+      "known_idx": 145,
+      "known_char": "N"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 169,
+      "cipher_num": 511,
+      "decoded_char": "T",
+      "known_idx": 169,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 178,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": 178,
+      "known_char": "N"
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 186,
+      "cipher_num": 344,
+      "decoded_char": "R",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 187,
+      "cipher_num": 34,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 188,
+      "cipher_num": 20,
+      "decoded_char": "H",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 190,
+      "cipher_num": 511,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 191,
+      "cipher_num": 548,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 193,
+      "cipher_num": 603,
+      "decoded_char": "A",
+      "known_idx": 188,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 202,
+      "cipher_num": 575,
+      "decoded_char": "J",
+      "known_idx": 197,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 217,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": 212,
+      "known_char": "N"
+    },
+    {
+      "type": "delete",
+      "known_idx": 221,
+      "known_char": "O",
+      "cipher_pos": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 226,
+      "cipher_num": 29,
+      "decoded_char": "T",
+      "known_idx": 222,
+      "known_char": "N"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 228,
+      "cipher_num": 47,
+      "decoded_char": "N",
+      "known_idx": 224,
+      "known_char": "T"
+    },
+    {
+      "type": "delete",
+      "known_idx": 226,
+      "known_char": "O",
+      "cipher_pos": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 231,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 232,
+      "cipher_num": 52,
+      "decoded_char": "D",
+      "known_idx": 228,
+      "known_char": "S"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 233,
+      "cipher_num": 53,
+      "decoded_char": "R",
+      "known_idx": 229,
+      "known_char": "A"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 234,
+      "cipher_num": 79,
+      "decoded_char": "E",
+      "known_idx": 230,
+      "known_char": "N"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 250,
+      "cipher_num": 557,
+      "decoded_char": "A",
+      "known_idx": 246,
+      "known_char": "N"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 260,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": 256,
+      "known_char": "N"
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 264,
+      "cipher_num": 140,
+      "decoded_char": "I",
+      "known_idx": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 261,
+      "known_char": "E",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 262,
+      "known_char": "E",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 264,
+      "known_char": "H",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 265,
+      "known_char": "O",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 266,
+      "known_char": "U",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 267,
+      "known_char": "S",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 268,
+      "known_char": "A",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 269,
+      "known_char": "N",
+      "cipher_pos": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 267,
+      "cipher_num": 811,
+      "decoded_char": "Y",
+      "known_idx": 270,
+      "known_char": "D"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 275,
+      "cipher_num": 607,
+      "decoded_char": "O",
+      "known_idx": 278,
+      "known_char": "N"
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 315,
+      "cipher_num": 138,
+      "decoded_char": "E",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 316,
+      "cipher_num": 8,
+      "decoded_char": "I",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 317,
+      "cipher_num": 113,
+      "decoded_char": "G",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 318,
+      "cipher_num": 20,
+      "decoded_char": "H",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 319,
+      "cipher_num": 32,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 320,
+      "cipher_num": 33,
+      "decoded_char": "E",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 321,
+      "cipher_num": 37,
+      "decoded_char": "E",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 322,
+      "cipher_num": 353,
+      "decoded_char": "N",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 323,
+      "cipher_num": 287,
+      "decoded_char": "N",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 324,
+      "cipher_num": 140,
+      "decoded_char": "I",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 325,
+      "cipher_num": 47,
+      "decoded_char": "N",
+      "known_idx": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 327,
+      "cipher_num": 50,
+      "decoded_char": "T",
+      "known_idx": 319,
+      "known_char": "M"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 328,
+      "cipher_num": 37,
+      "decoded_char": "E",
+      "known_idx": 320,
+      "known_char": "B"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 330,
+      "cipher_num": 47,
+      "decoded_char": "N",
+      "known_idx": 322,
+      "known_char": "R"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 342,
+      "cipher_num": 600,
+      "decoded_char": "H",
+      "known_idx": 334,
+      "known_char": "S"
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 350,
+      "cipher_num": 511,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 351,
+      "cipher_num": 2,
+      "decoded_char": "I",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 352,
+      "cipher_num": 270,
+      "decoded_char": "G",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 353,
+      "cipher_num": 20,
+      "decoded_char": "H",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 354,
+      "cipher_num": 39,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 355,
+      "cipher_num": 7,
+      "decoded_char": "E",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 357,
+      "cipher_num": 44,
+      "decoded_char": "N",
+      "known_idx": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 358,
+      "cipher_num": 22,
+      "decoded_char": "T",
+      "known_idx": 343,
+      "known_char": "M"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 359,
+      "cipher_num": 40,
+      "decoded_char": "W",
+      "known_idx": 344,
+      "known_char": "B"
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 361,
+      "cipher_num": 10,
+      "decoded_char": "N",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 362,
+      "cipher_num": 3,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 363,
+      "cipher_num": 811,
+      "decoded_char": "Y",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 364,
+      "cipher_num": 106,
+      "decoded_char": "O",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 365,
+      "cipher_num": 44,
+      "decoded_char": "N",
+      "known_idx": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 366,
+      "cipher_num": 486,
+      "decoded_char": "E",
+      "known_idx": 346,
+      "known_char": "R"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 377,
+      "cipher_num": 603,
+      "decoded_char": "A",
+      "known_idx": 357,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 380,
+      "cipher_num": 666,
+      "decoded_char": "T",
+      "known_idx": 360,
+      "known_char": "F"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 386,
+      "cipher_num": 511,
+      "decoded_char": "T",
+      "known_idx": 366,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 387,
+      "cipher_num": 548,
+      "decoded_char": "T",
+      "known_idx": 367,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 391,
+      "cipher_num": 557,
+      "decoded_char": "A",
+      "known_idx": 371,
+      "known_char": "N"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 417,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": 397,
+      "known_char": "N"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 433,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": 413,
+      "known_char": "N"
+    },
+    {
+      "type": "delete",
+      "known_idx": 426,
+      "known_char": "P",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 427,
+      "known_char": "O",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 428,
+      "known_char": "U",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 429,
+      "known_char": "N",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 430,
+      "known_char": "D",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 431,
+      "known_char": "S",
+      "cipher_pos": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 458,
+      "cipher_num": 581,
+      "decoded_char": "D",
+      "known_idx": 444,
+      "known_char": "J"
+    },
+    {
+      "type": "delete",
+      "known_idx": 476,
+      "known_char": "E",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 477,
+      "known_char": "F",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 478,
+      "known_char": "O",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 479,
+      "known_char": "R",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 480,
+      "known_char": "S",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 481,
+      "known_char": "I",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 482,
+      "known_char": "L",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 483,
+      "known_char": "V",
+      "cipher_pos": null
+    },
+    {
+      "type": "delete",
+      "known_idx": 485,
+      "known_char": "R",
+      "cipher_pos": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 512,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": 507,
+      "known_char": "N"
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 518,
+      "cipher_num": 138,
+      "decoded_char": "E",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 519,
+      "cipher_num": 582,
+      "decoded_char": "O",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 520,
+      "cipher_num": 98,
+      "decoded_char": "A",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 521,
+      "cipher_num": 643,
+      "decoded_char": "R",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 522,
+      "cipher_num": 32,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 523,
+      "cipher_num": 107,
+      "decoded_char": "H",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 524,
+      "cipher_num": 140,
+      "decoded_char": "I",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 525,
+      "cipher_num": 112,
+      "decoded_char": "R",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 526,
+      "cipher_num": 26,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 527,
+      "cipher_num": 85,
+      "decoded_char": "E",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 529,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 530,
+      "cipher_num": 54,
+      "decoded_char": "T",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 531,
+      "cipher_num": 20,
+      "decoded_char": "H",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 532,
+      "cipher_num": 125,
+      "decoded_char": "O",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 533,
+      "cipher_num": 371,
+      "decoded_char": "U",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 534,
+      "cipher_num": 38,
+      "decoded_char": "S",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 535,
+      "cipher_num": 36,
+      "decoded_char": "A",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 536,
+      "cipher_num": 10,
+      "decoded_char": "N",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 537,
+      "cipher_num": 52,
+      "decoded_char": "D",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 539,
+      "cipher_num": 136,
+      "decoded_char": "O",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 540,
+      "cipher_num": 102,
+      "decoded_char": "L",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 541,
+      "cipher_num": 420,
+      "decoded_char": "L",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 543,
+      "cipher_num": 112,
+      "decoded_char": "R",
+      "known_idx": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 544,
+      "cipher_num": 71,
+      "decoded_char": "S",
+      "known_idx": 516,
+      "known_char": "T"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 560,
+      "cipher_num": 511,
+      "decoded_char": "T",
+      "known_idx": 532,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 567,
+      "cipher_num": 620,
+      "decoded_char": "T",
+      "known_idx": 539,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 586,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": 558,
+      "known_char": "N"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 616,
+      "cipher_num": 241,
+      "decoded_char": "T",
+      "known_idx": 588,
+      "known_char": "I"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 664,
+      "cipher_num": 511,
+      "decoded_char": "T",
+      "known_idx": 636,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 668,
+      "cipher_num": 643,
+      "decoded_char": "R",
+      "known_idx": 640,
+      "known_char": "T"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 673,
+      "cipher_num": 603,
+      "decoded_char": "A",
+      "known_idx": 645,
+      "known_char": "E"
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 687,
+      "cipher_num": 12,
+      "decoded_char": "O",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 688,
+      "cipher_num": 47,
+      "decoded_char": "N",
+      "known_idx": null
+    },
+    {
+      "type": "insert",
+      "cipher_pos": 689,
+      "cipher_num": 85,
+      "decoded_char": "E",
+      "known_idx": null
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 701,
+      "cipher_num": 84,
+      "decoded_char": "C",
+      "known_idx": 670,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 702,
+      "cipher_num": 575,
+      "decoded_char": "J",
+      "known_idx": 671,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 719,
+      "cipher_num": 603,
+      "decoded_char": "A",
+      "known_idx": 688,
+      "known_char": "E"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 725,
+      "cipher_num": 600,
+      "decoded_char": "H",
+      "known_idx": 694,
+      "known_char": "S"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 739,
+      "cipher_num": 40,
+      "decoded_char": "W",
+      "known_idx": 708,
+      "known_char": "U"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 752,
+      "cipher_num": 241,
+      "decoded_char": "T",
+      "known_idx": 721,
+      "known_char": "I"
+    },
+    {
+      "type": "substitute",
+      "cipher_pos": 753,
+      "cipher_num": 540,
+      "decoded_char": "O",
+      "known_idx": 722,
+      "known_char": "N"
+    }
+  ]
+}

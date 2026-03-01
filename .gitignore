@@ -1,0 +1,28 @@
+# Output and artifacts (optional: remove output/ to track phase103/*.txt, *.md)
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Secrets and local paths
+.env
+.env.*
+!.env.example
+
+# IDE and tools
+.cursor/
+.mypy_cache/
+.pytest_cache/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large local corpus (if BEALE_PAMPHLET_PDF_PATH points here)
+# *.pdf

@@ -1,0 +1,13 @@
+{
+  "edition_id": "avalon_yale",
+  "source_url": "https://avalon.law.yale.edu/18th_century/declare.asp",
+  "source_name": "Yale Avalon Project",
+  "provenance": "Yale Law School Avalon Project digital transcript",
+  "acquisition_date": "2026-02-16",
+  "edition_date": "1776-07-04",
+  "word_count": 1322,
+  "char_count": 8030,
+  "contains_signers": true,
+  "contains_header": true,
+  "sha256": "cb47cf51ae1f572dce1e86f14fe25ee005ecb933e35532678c3bb1a3f8f49748"
+}

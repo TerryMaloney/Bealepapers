@@ -1,0 +1,13 @@
+[PLACEHOLDER - TO BE ACQUIRED]
+
+Edition: dunlap_1776
+Provenance: Dunlap broadside - TO BE ACQUIRED from Library of Congress
+Date: 1776-07-04
+Notes: Original printing by John Dunlap, Philadelphia. Most historically accurate.
+
+This file is a placeholder. Replace with actual DOI text when acquired.
+
+Acquisition sources:
+- Library of Congress: https://www.loc.gov/
+- National Archives: https://www.archives.gov/
+- Founders Online: https://founders.archives.gov/

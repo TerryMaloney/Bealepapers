@@ -1,0 +1,13 @@
+{
+  "edition_id": "beale_embedded",
+  "source_url": "beale_papers.txt line 55",
+  "source_name": "Beale Papers Embedded DOI",
+  "provenance": "Extracted from beale_papers.txt line 55 (1885 Beale Papers publication)",
+  "acquisition_date": "2026-02-16",
+  "edition_date": "1885",
+  "word_count": 1322,
+  "char_count": 7841,
+  "contains_signers": false,
+  "contains_header": false,
+  "sha256": "be26a62d428515b0e476d6f491a71b4c314f48a5d10e07d5e55f1f24d44ff30a"
+}

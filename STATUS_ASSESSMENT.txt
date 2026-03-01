@@ -1,0 +1,80 @@
+﻿# DISCIPLINED ASSESSMENT - Signal Quality Audit
+
+## Response to Critical Questions
+
+### Q: Did VDR include the preamble?
+**NO** - Starts directly with "I That all men are by nature..."
+
+### Q: Why is VDR 860 words not 335?
+**Roman numerals + adoption footer:**
+- Roman numerals I-XVI = 16 tokens
+- Adoption line = ~12 words
+- Full article text = ~832 words
+- **Total normalized: 860 words**
+
+**Implication:** The 335-word hypothesis was based on:
+- An abridged pamphlet version, OR
+- Article text only (no numerals/footer), OR
+- A different edition entirely
+
+**This is a structural mismatch that must be acknowledged.**
+
+## What Is Confirmed (High Confidence)
+
+1. Pipeline is deterministic and reproducible
+2. Stack structure (VDR->DOI->Signers) behaves logically
+3. Indexing produces real semantic words (not junk tokens)
+4. Cipher 1701 -> "lewis" (Francis Lewis, NY signer) validates signers block hypothesis
+5. Offset-flexible architecture works
+
+## What Is NOT Proven
+
+1. This is the actual key book (only: plausible candidate)
+2. "Lewis" at 1701 is statistically rare (encouraging, not evidentiary)
+3. 335 offset is correct (misaligned with actual VDR=860)
+4. First-letter acrostic is the decode method
+
+## Red Flags
+
+1. **VDR mismatch:** 860 vs 335 - offset boundary may be wrong
+2. **Coverage gap:** Corpus 2,322 words vs Cipher max 2,906 (80%)
+3. **No coherent English** in first-letter streams yet (PMT...)
+4. **Articles incomplete** - critical blind spot
+
+## Signal Indicators to Watch For (Not Force)
+
+From your guidance:
+- **Repeating clusters:** "IARVFT", "OVTADWIO", "IITWFLPP" etc.
+- **Offset stability:** Clusters appearing across 333-336
+- **Geographic terms** in ±10 context windows
+- **Proper nouns** emerging in word sequences
+
+NOT looking for full sentences yet.
+
+## Current Priority Order
+
+### 1. Add Complete Articles (~3,535 words) - CRITICAL
+Extends coverage to ~5,800 words - covers entire Cipher 1 range (2,906)
+
+### 2. Re-run with expanded corpus
+- First 100 numbers of Cipher 1
+- Batch offset trial 330-340
+- Check if late-cipher numbers show structure
+
+### 3. Analyze repeating clusters
+- Map which clusters are offset-stable
+- Check if they correspond to geographic/directional terms
+
+### 4. Refine VDR boundary
+- Test if removing Romans/footer creates better alignment
+- Or test if offset should be ~860 not 335
+
+## Professional Read
+
+**Status: Phase 1 cryptanalytic probing**
+
+You are no longer guessing. The rig is solid.
+
+**Next milestone:** Complete Articles addition, then evaluate if late-cipher structure emerges.
+
+**Discipline rule enforced:** No pattern-fitting. Only count what the index returns.

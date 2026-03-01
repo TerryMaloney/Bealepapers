@@ -1,0 +1,13 @@
+{
+  "edition_id": "ushistory_org",
+  "source_url": "https://www.ushistory.org/declaration/document/",
+  "source_name": "USHistory.org Transcript",
+  "provenance": "USHistory.org educational resource",
+  "acquisition_date": "2026-02-16",
+  "edition_date": "1776-07-04",
+  "word_count": 1326,
+  "char_count": 8013,
+  "contains_signers": true,
+  "contains_header": true,
+  "sha256": "c2a82b7821a7338423ee0cfb95d2bc10d5b30778949e45e46c8e275c6846f364"
+}

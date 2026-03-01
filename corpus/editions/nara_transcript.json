@@ -1,0 +1,13 @@
+{
+  "edition_id": "nara_transcript",
+  "source_url": "https://www.archives.gov/founding-docs/declaration-transcript",
+  "source_name": "National Archives - Official Transcript",
+  "provenance": "NARA official transcript, modern scholarly edition",
+  "acquisition_date": "2026-02-16",
+  "edition_date": "1776-07-04",
+  "word_count": 1320,
+  "char_count": 8022,
+  "contains_signers": true,
+  "contains_header": true,
+  "sha256": "246641160742eaff0ba8cf7dcebc00851e8ca425081a2bdf31ab67d5fa45e81a"
+}

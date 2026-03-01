@@ -1,0 +1,62 @@
+{
+  "c1": {
+    "c1_canonical.txt": {
+      "source": "corpus/cipher*_numbers_canonical.txt",
+      "length": 520,
+      "min": 1,
+      "max": 2906,
+      "hash": "196803e18579c5b5"
+    },
+    "c1_beale_papers.txt": {
+      "source": "beale_papers.txt",
+      "length": 520,
+      "min": 1,
+      "max": 2906,
+      "hash": "196803e18579c5b5"
+    },
+    "c1_fsu_burkardt.txt": {
+      "source": "corpus/raw_sources/fsu/beale_cipher*.txt",
+      "length": 520,
+      "min": 1,
+      "max": 2906,
+      "hash": "196803e18579c5b5"
+    },
+    "c1_wikisource.txt": {
+      "source": "Wikisource The Beale Papers",
+      "length": 520,
+      "min": 1,
+      "max": 2906,
+      "hash": "196803e18579c5b5"
+    }
+  },
+  "c3": {
+    "c3_canonical.txt": {
+      "source": "corpus/cipher*_numbers_canonical.txt",
+      "length": 618,
+      "min": 1,
+      "max": 975,
+      "hash": "34f04d1f40a494a2"
+    },
+    "c3_beale_papers.txt": {
+      "source": "beale_papers.txt",
+      "length": 618,
+      "min": 1,
+      "max": 975,
+      "hash": "3c79f734a1fa2741"
+    },
+    "c3_fsu_burkardt.txt": {
+      "source": "corpus/raw_sources/fsu/beale_cipher*.txt",
+      "length": 618,
+      "min": 1,
+      "max": 975,
+      "hash": "34f04d1f40a494a2"
+    },
+    "c3_wikisource.txt": {
+      "source": "Wikisource The Beale Papers",
+      "length": 618,
+      "min": 1,
+      "max": 975,
+      "hash": "1d1bbf7a71efe319"
+    }
+  }
+}
