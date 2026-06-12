@@ -19,7 +19,7 @@ def test_ground_truth_is_763_letters():
 def test_c2_reproduces_plaintext(data):
     report = verify_cipher2(data)
     assert report.n_oor == 0
-    assert report.exact_pct >= 0.90, (
+    assert report.exact_pct >= 0.97, (
         f"C2 oracle regressed: {report.exact_pct:.1%} "
         f"({len(report.mismatches)} mismatches)"
     )

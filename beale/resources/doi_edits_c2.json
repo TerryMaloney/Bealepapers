@@ -1,6 +1,8 @@
 {
-  "comment": "Key-text edits that reconcile the pamphlet's printed DOI numbering with the numbering Beale actually used when encoding Cipher 2. Beale's copy skipped roughly ten words around word 467 and one word each near 621 and 648 (positions fitted empirically against the known plaintext; see oracle.py). Edits apply sequentially in order; positions are 1-indexed in the list as it stands when each edit is applied.",
+  "comment": "Key-text edits reconciling the pamphlet's printed DOI numbering with the numbering Beale actually used for Cipher 2. v2: adds the 155/242 band fix (his copy read 'institute A new government' adding one word at 155, and dropped one word after 'invariably' near 242), on top of the v1 fits (ten words skipped near 467, one near 621, one near 648, one extra near 487). Oracle: 755/763 = 99.0%. The 8 residual mismatches are 4 one-off cipher copy errors in repeated numbers, 1 unverifiable singleton, and number 505 (consistently 's' in Beale's key vs 't' in all DOI reconstructions). Edits apply sequentially in order; positions are 1-indexed in the list as it stands when each edit is applied.",
   "edits": [
+    {"op": "insert", "at": 155, "word": "a"},
+    {"op": "delete", "at": 242},
     {"op": "delete", "at": 467},
     {"op": "delete", "at": 467},
     {"op": "delete", "at": 467},

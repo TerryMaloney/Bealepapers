@@ -5,12 +5,14 @@ of Independence -> first letter. A correct engine must reproduce the known
 plaintext. Three layers contribute:
 
 * raw decode against the pamphlet's embedded DOI:        ~83.6%
-* + key-text edits reconciling Beale's miscounted DOI:   ~91.5%
+* + key-text edits reconciling Beale's miscounted DOI:   ~99.0%
 * + homophone overrides 811 -> 'y', 1005 -> 'x'          (included above)
 
-The remaining ~8% mismatches are scattered single-letter transcription
-errors in the surviving copy of the cipher (documented in the literature);
-they do not cluster, which is the signature of a correct alignment.
+The 8 remaining mismatches are 4 one-off copy errors in repeated numbers
+(e.g. 84 written where 85 was meant), one unverifiable singleton (666), and
+number 505, which is consistently 's' in Beale's key but 't' in every DOI
+reconstruction — a real local difference in his copy. They do not cluster,
+which is the signature of a correct alignment.
 """
 
 from __future__ import annotations
@@ -25,7 +27,7 @@ from .engine import DecodeConfig, decode
 
 _RESOURCES = Path(__file__).parent / "resources"
 
-PASS_THRESHOLD = 0.90
+PASS_THRESHOLD = 0.97
 
 
 def known_c2_plaintext() -> str:
