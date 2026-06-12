@@ -1,0 +1,164 @@
+{
+  "solver": "soft-skeleton",
+  "target": "c3",
+  "params": {
+    "min_count": 2
+  },
+  "seed": null,
+  "criteria": {
+    "solver": "soft-skeleton",
+    "target": "c3",
+    "statements": [
+      "ground-truth gate failed margin test (+1.5 < 3): results are SUGGESTIVE LEADS ONLY, not identifications"
+    ],
+    "digest": "5e87b0c945b1"
+  },
+  "results": {
+    "C3": [
+      {
+        "doc_id": "embedded_doi",
+        "offset": 1279,
+        "score": 0.618813759883259,
+        "used": 33,
+        "z": 5.425744993394748
+      },
+      {
+        "doc_id": "doi_beale_adjusted",
+        "offset": 1267,
+        "score": 0.6492192822721781,
+        "used": 33,
+        "z": 5.222112715088251
+      },
+      {
+        "doc_id": "grimms_fairy_tales",
+        "offset": 11,
+        "score": 0.2586211752551245,
+        "used": 21,
+        "z": 5.029232422613948
+      },
+      {
+        "doc_id": "common_sense",
+        "offset": 719,
+        "score": 4.991539336327043,
+        "used": 137,
+        "z": 4.848716464403726
+      },
+      {
+        "doc_id": "leviathan",
+        "offset": 132,
+        "score": 11.14799808949822,
+        "used": 124,
+        "z": 4.810598964873768
+      },
+      {
+        "doc_id": "pride_prejudice",
+        "offset": 132,
+        "score": 6.574585433214045,
+        "used": 125,
+        "z": 4.810401739223551
+      },
+      {
+        "doc_id": "wuthering_heights",
+        "offset": 596,
+        "score": 6.173931132940714,
+        "used": 130,
+        "z": 4.64461683097913
+      },
+      {
+        "doc_id": "wealth_of_nations",
+        "offset": 329,
+        "score": 1.0555638882984997,
+        "used": 38,
+        "z": 4.629799939484822
+      },
+      {
+        "doc_id": "annals_tacitus",
+        "offset": 716,
+        "score": 6.399290718919973,
+        "used": 120,
+        "z": 4.600483221085947
+      },
+      {
+        "doc_id": "virginia_comedians",
+        "offset": 13,
+        "score": 6.044775595867241,
+        "used": 75,
+        "z": 4.564130696925515
+      }
+    ],
+    "C1": [
+      {
+        "doc_id": "embedded_doi",
+        "offset": 1279,
+        "score": 0.8759188530273478,
+        "used": 30,
+        "z": 5.354716438689696
+      },
+      {
+        "doc_id": "legend_sleepy_hollow",
+        "offset": 239,
+        "score": 4.307334314856103,
+        "used": 93,
+        "z": 5.067779733547718
+      },
+      {
+        "doc_id": "odyssey_pope",
+        "offset": 494,
+        "score": 11.276332473218918,
+        "used": 114,
+        "z": 4.845924978236608
+      },
+      {
+        "doc_id": "virginia_comedians",
+        "offset": 1,
+        "score": 5.2263029851076075,
+        "used": 69,
+        "z": 4.762246501746869
+      },
+      {
+        "doc_id": "pamela_richardson",
+        "offset": 142,
+        "score": 7.066113617239433,
+        "used": 105,
+        "z": 4.732989680035645
+      },
+      {
+        "doc_id": "bible_asv",
+        "offset": 704,
+        "score": 9.231783351873691,
+        "used": 108,
+        "z": 4.697593170925709
+      },
+      {
+        "doc_id": "king_james_genesis",
+        "offset": 704,
+        "score": 9.231783351873691,
+        "used": 108,
+        "z": 4.697593170925709
+      },
+      {
+        "doc_id": "doi_beale_adjusted",
+        "offset": 1267,
+        "score": 0.9293842252404492,
+        "used": 30,
+        "z": 4.625619053337159
+      },
+      {
+        "doc_id": "wuthering_heights",
+        "offset": 103,
+        "score": 5.957608837988097,
+        "used": 106,
+        "z": 4.563564114552016
+      },
+      {
+        "doc_id": "washington_farewell",
+        "offset": 45,
+        "score": 6.209394670387268,
+        "used": 113,
+        "z": 4.541985501794864
+      }
+    ]
+  },
+  "started": 1781293815.8794556,
+  "elapsed_s": 16.71
+}

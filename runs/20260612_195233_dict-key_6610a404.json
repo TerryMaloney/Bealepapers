@@ -1,0 +1,33 @@
+{
+  "solver": "dict-key",
+  "target": "c3",
+  "params": {
+    "restarts": 6
+  },
+  "seed": null,
+  "criteria": {
+    "solver": "dict-key",
+    "target": "c3",
+    "statements": [
+      "hit requires z>=4 vs 30-shuffle null fits AND visible English; synthetic must recover >=80%; C2 negative control must not beat its null"
+    ],
+    "digest": "cfd547a5e67f"
+  },
+  "results": {
+    "synthetic_acc": 0.8733333333333333,
+    "C2": {
+      "z": -1.7581374954574482,
+      "decode_head": "nieweggdeiveadogenllisaeyasslgroiseafstonlhiaeaeohelissinoioseteyirweaaageiwesnelryoordigniieiletisllrnsitussntsiaaroestnssgglnenlrrnilsfanotgonauityeoddenesdraedsontsnotigsenowotaestodlsedittnusaired"
+    },
+    "C3": {
+      "z": -2.465998870584199,
+      "decode_head": "talinietdlneviounlnsuniiaedaiainsideaneiednlnestaeaeiaoetdiithessrttilsueetaeedeilleinneioeolrittilssteieiiolddliedesitlndeieesaanaiidanisstaieinsedsdaidenoeiiaiseeinsttlednaolssiostteaniieadeieaonoor"
+    },
+    "C1": {
+      "z": 0.27724228009811175,
+      "decode_head": "fneyigahyeielaiiirvaeeegnoeivaaalyeftstorttnoprolosorrairnnaeionnaifrtoestrlloenlasesbreinplrlerpafoveareieraeeplieostaonrtbesslngfsibeteelrsagaiteliiteeystoltrenettaleotyyiebeltaeniaeeibnrnrelianalre"
+    }
+  },
+  "started": 1781293953.5268528,
+  "elapsed_s": 13.95
+}

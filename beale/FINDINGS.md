@@ -189,3 +189,48 @@ precisely characterized and matches NO standard textual tradition. The
 lewis anecdote is dead; the DOI-only and crib instruments are honestly
 calibrated (one supportive VDR lead recorded); the printing hunt moves to
 human archive search with the wanted poster.
+
+---
+
+# Phase 4 — Function words, the soft skeleton, and the dictionary attack
+
+## J. Repeated-pattern / function-word attack (user-proposed; mechanism VALIDATED)
+- On the solved C2, repeated number n-grams are unmistakable (bigram z=+4.7,
+  trigram z=+8.7 vs shuffles) and decode to exactly the top English
+  fragments: 'ed' 've' 'th' 'in' 'ne' 'es' 'on' 'ng' / 'her' 'nds' 'ove'.
+  The reverse-engineering logic works as conceived.
+- **C1 and C3 contain NO repeated-pattern structure** (z ~ 0; 0-2 repeated
+  patterns vs C2's 39+3). New discriminator: C3 has strong number-VALUE
+  locality but zero number-PATTERN repetition — the opposite signature of
+  encoded English for this encoder. J2 mapping on C1/C3: unpowered by
+  preregistered gate; not run on real ciphers.
+
+## K. Soft skeleton — "Guess Who in reverse"
+- Count->letter calibration from C2's verified table behaves exactly as
+  theory predicts (5+ uses -> e/t/n/o/r/i).
+- Soft fingerprint matcher: on C2's numbers ALONE (no plaintext) it ranks
+  the DOI #1 at the correct offset — but with z-margin +1.5 over the best
+  non-DOI doc (< the preregistered 3): **gate FAILED**, so C3/C1 scans are
+  leads-only. Neither cipher produced a lead separating from noise.
+- Dossier (`runs/c3_dossier.md`): C3's key document is >=975 words and
+  likely ends near there (dense usage to the edge), was consulted LOCALLY
+  (lag-1 +0.61; C2's encoder jumped freely), with its most-consulted words
+  listed (e.g. word #96 used 13x, most likely e/t-initial). C1 sheet
+  included. This is the archive-hunting companion to the wanted poster.
+
+## L. NEW THREAD: alphabetized-key (dictionary) attack — REJECTED
+- A monotone 25-threshold number->letter fit (the signature of any
+  alphabetized key: dictionary, index, gazetteer) with full controls:
+  synthetic dictionary cipher recovered 87% (PASS), C2 negative control
+  does not fire (z=-1.76, PASS).
+- **C3: z=-2.47 — not an alphabetized key. C1: z=+0.28 — no hit.**
+  C3's ascending runs are NOT explained by dictionary-column scanning.
+
+## Phase-4 bottom line
+The user's function-word mechanism is real — proven on C2 — and its
+absence in C1/C3 is now one of the cleanest quantitative discriminators in
+the literature: genuine Beale encoding leaves repeated-pattern structure
+and C1/C3 have none, while C3's number-value locality matches no encoding
+model tested (book-cipher, scan-forward, lazy-forward, dictionary). The
+dossier and wanted poster together define what any candidate key document
+must look like; the burden now sits on undigitized archives.
