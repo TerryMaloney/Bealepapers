@@ -1,6 +1,9 @@
 # Output and artifacts (optional: remove output/ to track phase103/*.txt, *.md)
 output/
 
+# beale package runtime cache (search checkpoints, web fetches)
+corpus/cache/
+
 # Python
 __pycache__/
 *.pyc
