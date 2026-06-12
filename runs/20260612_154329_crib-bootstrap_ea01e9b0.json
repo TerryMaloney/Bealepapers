@@ -1,0 +1,97 @@
+{
+  "solver": "crib-bootstrap",
+  "target": "c1",
+  "params": {
+    "cribs": [
+      "beale",
+      "bedford",
+      "botetourt",
+      "branch",
+      "buford",
+      "buried",
+      "cave",
+      "chestnut",
+      "county",
+      "creek",
+      "degrees",
+      "deposit",
+      "distance",
+      "east",
+      "excavation",
+      "feet",
+      "fifty",
+      "fincastle",
+      "fork",
+      "forty",
+      "goose",
+      "hill",
+      "hollow",
+      "hundred",
+      "iron",
+      "located",
+      "lynchburg",
+      "mile",
+      "morriss",
+      "mountain",
+      "names",
+      "north",
+      "northeast",
+      "northwest",
+      "oak",
+      "otter",
+      "paces",
+      "peaks",
+      "pot",
+      "residences",
+      "ridge",
+      "roanoke",
+      "rock",
+      "south",
+      "southeast",
+      "southwest",
+      "stone",
+      "tavern",
+      "thirty",
+      "thousand",
+      "treasure",
+      "twenty",
+      "vault",
+      "virginia",
+      "west",
+      "wife",
+      "yards"
+    ]
+  },
+  "seed": null,
+  "criteria": {
+    "solver": "crib-bootstrap",
+    "target": "c1",
+    "statements": [
+      "interpret only if positive control passed",
+      "sealed arms; G3 agreement on shared numbers vs binomial null ~0.105; SAME KEY only at p<0.001",
+      "null bootstraps on shuffles bound the accept rate"
+    ],
+    "digest": "073dfb0d79c8"
+  },
+  "results": {
+    "positive_control": {
+      "accepted": 0,
+      "pins": 0,
+      "precision": 0.0,
+      "top_doc": null,
+      "pass": false
+    },
+    "c1": {
+      "accepted": 8,
+      "new_pins": 37
+    },
+    "c3": {
+      "accepted": 13,
+      "new_pins": 56
+    },
+    "null_max": 10,
+    "g3_verdict": "no evidence"
+  },
+  "started": 1781279009.324872,
+  "elapsed_s": 0.56
+}

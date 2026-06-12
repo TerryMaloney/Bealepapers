@@ -138,3 +138,54 @@ python -m pytest tests/beale/               # 51 tests incl. ground truths
 python -m beale.exp_pinned                  # calibration + pinned runs
 python -m beale report --cipher C1          # Gillogly artifact + verdict
 ```
+
+---
+
+# Phase 3 — Hunt the physical document (verdict boxes)
+
+## E. The wanted poster & printing hunt
+- **The "505 anomaly" is EXPLAINED**: placements of the extra word after
+  word #505 keep the oracle at its 755/763 maximum, mapping Beale's #505
+  onto "state". The final variant profile of his physical DOI copy:
+  extra "a" ("institute A new government"), missing "the" ("pursuing
+  invariably same object"), a missing TEN-WORD block bracketed in words
+  467-485 (dropped typeset line or eye-skip), one extra word in 487-510,
+  missing "out" ("eat their substance"), missing "of" ("independent and
+  superior to"). Poster: `runs/wanted_poster.md`.
+- Automated hunt over fetchable transcriptions (Avalon, NARA, Gutenberg):
+  **no fetchable tradition shows ANY of the variants** (base rates 0.0) —
+  the profile is distinctive; the find, if it exists, sits in undigitized
+  or archive-only printings (Evans / Shaw-Shoemaker era). Poster is the
+  publishable search instrument.
+
+## F. Extended stack / signers
+- **Legacy "1701 -> lewis" KILLED**: no stack x alignment (18 stacks x 61
+  gaps) puts 1701 on "lewis". The legacy claim does not reproduce.
+- Weak SUPPORTIVE signal (preregistered max-statistic, p<0.01): C1's
+  10-11 high numbers under adjusted-DOI + Virginia Declaration of Rights
+  (gap 0) give name-flavored initials `wltbjepmwl` (LLR 8.76 vs null 99th
+  4.50). Graded supportive-not-conclusive; number 2906 remains uncovered.
+
+## H. DOI-only variants
+- ~1500-variant grid (extractions x shifts x affine x reversals x both DOI
+  bases): **no hit** — C1 z=+0.12, C3 z=-2.25 vs shuffled-null maxima.
+- Descriptive: C1 contains 12 alphabetical runs, ALL within its first 330
+  positions, none after; no key-locality segment structure (z=-0.6).
+
+## G. Crib bootstrap & same-pamphlet test
+- **METHOD-UNPOWERED (honest exit)**: the positive-control gate FAILED
+  (bootstrap recovered 0 pins on a synthetic carrying a real message), and
+  shuffled-cipher nulls accept ~8 cribs on average — so the real arms'
+  8 (C1) / 13 (C3) crib acceptances are within noise and NOT interpreted.
+  The bigram-plausibility cross-check needs replacing with dictionary-span
+  completion before this instrument can carry weight.
+- G3 same-pamphlet: 9 shared new pins between sealed arms, 0 agreements —
+  no evidence either way (and uninterpretable given the gate failure).
+
+## Phase-3 bottom line
+The biggest result is forensic, not cryptanalytic: Beale's key was a
+specific, identifiable physical document whose variant profile is now
+precisely characterized and matches NO standard textual tradition. The
+lewis anecdote is dead; the DOI-only and crib instruments are honestly
+calibrated (one supportive VDR lead recorded); the printing hunt moves to
+human archive search with the wanted poster.
