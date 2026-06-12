@@ -234,3 +234,16 @@ and C1/C3 have none, while C3's number-value locality matches no encoding
 model tested (book-cipher, scan-forward, lazy-forward, dictionary). The
 dossier and wanted poster together define what any candidate key document
 must look like; the burden now sits on undigitized archives.
+
+## Phase 4b — outside-the-box quick probes (all null, all cheap)
+
+Preregistered as a screening battery: chase only z>=4 signals; none appeared.
+
+| Probe | Result |
+|---|---|
+| Caesar shift k=1..25 on keytable decode (C1 "one off", C3 "three off") | k=0 best for both; no shift helps |
+| Modular wraparound indexing (count past the end, restart) mod 1322/1311 | scores below even shuffled-wrap null |
+| Wraparound x Caesar grid (52 cells/cipher) | best cell is k=0; nothing |
+| Numbers as letters directly (n mod 26, offsets 0/1) | deep random (-8.2 to -8.5) |
+| Pamphlet-prose acrostics (paragraph/sentence initials, every-Nth-word of the Jan 4 letter) | all at/below random (-6.7 to -8.2); prose numbers are just the story's dates |
+| C2's decoded plaintext as the key for C1/C3 (letter-wise and word-wise, with wrap) | within shuffle null (z ~ +1) |
