@@ -1,0 +1,56 @@
+{
+  "solver": "extended-stack",
+  "target": "c1",
+  "params": {
+    "stacks": [
+      "adj|articles",
+      "adj|signers_alpha",
+      "adj|signers_geo",
+      "adj|signers_namesonly",
+      "adj|signers_parchment_approx",
+      "adj|us_constitution",
+      "adj|va_constitution",
+      "adj|vdr",
+      "pam|articles",
+      "pam|signers_alpha",
+      "pam|signers_geo",
+      "pam|signers_namesonly",
+      "pam|signers_parchment_approx",
+      "pam|us_constitution",
+      "pam|va_constitution",
+      "pam|vdr",
+      "vdr|pam|signers_geo",
+      "vdr|pam|sig|articles"
+    ],
+    "gaps": [
+      0,
+      60
+    ]
+  },
+  "seed": null,
+  "criteria": {
+    "solver": "extended-stack",
+    "target": "c1",
+    "statements": [
+      "initials LLR significant only above 99th pct of max-statistic null over all stacks x gaps",
+      "lewis anecdote survives only above 99th pct of best-of-alignment null",
+      "graded supportive/unsupportive, never conclusive"
+    ],
+    "digest": "433fd9d99aff"
+  },
+  "results": {
+    "initials_best": {
+      "llr": 8.763788465499237,
+      "stack": "adj|vdr",
+      "gap": 0,
+      "null99": 4.5013405419527635,
+      "verdict": "SUPPORTIVE"
+    },
+    "lewis": {
+      "n_alignments": 0,
+      "verdict": "anecdote does not reproduce"
+    }
+  },
+  "started": 1781278818.2949302,
+  "elapsed_s": 0.34
+}
