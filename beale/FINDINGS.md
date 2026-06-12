@@ -282,3 +282,23 @@ surveyor/bearing notation ("N32E 40 poles"-style, abbreviation- and
 number-dense) would defeat every English language model used so far while
 matching a "locality of the vault" document. A notation-aware scoring
 model is the natural next instrument.
+
+## Phase 4d — survey/deed-notation instrument (built, validated, verdict null)
+
+- New `exp_survey.py`: period metes-and-bounds language model (mined from
+  Hening's statutes land grants + template-generated bearing calls), a
+  ~85-word survey lexicon (directions incl. single-letter abbreviations,
+  units: poles/perches/chains, landmarks: white oak/branch/ford, spelled
+  numbers, connector phrases "near the"/"under a"/"thence").
+- Instrument validation PASSES with teeth: survey samples prefer the
+  survey LM (+1.47), prose prefers English (-0.81), and the genuine C2
+  decode rejects survey decisively (z=-9.0).
+- **Verdicts**: C1's keyed decode shows NO survey-language preference
+  beyond its letter bag (z=+0.77; C3 +0.75). Corpus-wide re-sweep of C1
+  under the survey LM: all docs at the shuffled-reference level. Survey
+  crib pings against verified pins: 2 found vs 2.2±1.5 expected by chance
+  (the lone reviewable lead: 'west(erly)' @ position 313).
+- Scope caveat: this tests survey notation under Beale's key and under
+  every corpus key text; a survey plaintext under an UNKNOWN key remains
+  untestable until a key candidate exists. The LM and lexicon are now
+  permanent equipment for scoring any future candidate decode.
