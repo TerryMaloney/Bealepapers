@@ -247,3 +247,38 @@ Preregistered as a screening battery: chase only z>=4 signals; none appeared.
 | Numbers as letters directly (n mod 26, offsets 0/1) | deep random (-8.2 to -8.5) |
 | Pamphlet-prose acrostics (paragraph/sentence initials, every-Nth-word of the Jan 4 letter) | all at/below random (-6.7 to -8.2); prose numbers are just the story's dates |
 | C2's decoded plaintext as the key for C1/C3 (letter-wise and word-wise, with wrap) | within shuffle null (z ~ +1) |
+
+## Phase 4c — C1 examined fresh (no C2 knowledge assumed)
+
+Raw-stream profile of C1's 520 numbers:
+- Heavily low-skewed: median 123; 44% <=100, 75% <=350, 98% <=1322. Ten
+  high outliers (>1322), arriving early (pos 3, 8, 33) and in two ADJACENT
+  PAIRS at positions (170,171) and (390,391).
+- Stationary along its length (thirds have near-identical means, distinct
+  counts, and repeat shares) - the process that generated C1 did not
+  change mid-stream.
+- Mild sequential locality (lag-1 +0.25 vs shuffle 0) - between C2's none
+  (+0.04) and C3's extreme (+0.61).
+- No arithmetic progressions, no consecutive-integer steps.
+- **Temporal reuse clustering: C1 re-uses a number sooner than chance
+  (median repeat gap 97 vs 173 expected) - and this matches the GENUINE
+  encoder's habit exactly (C2: 72 vs 254). First structural property
+  linking C1's generation to real encoding behavior (memory effect:
+  "just looked that one up") rather than to free doodling.**
+- Methodological save: last-digit bias is NOT a construction tell -
+  genuine C2 is the most biased of the three (chi2=138) because of
+  favorite-number reuse. C3 is actually the most digit-uniform.
+
+The "what C1 is NOT" ledger (all calibrated): not a first-letter book
+cipher on Beale's own key; not any of ~1500 extraction/shift/affine/
+reversal DOI variants; not dictionary/alphabetized-keyed; not mono-sub/
+columnar/decimation over its keyed decode; not Caesar-shifted, wrapped,
+mod-26, or keyed by C2's plaintext; lacks the repeated-pattern structure
+genuine English encoding leaves. Yet decisively non-random (locality,
+reuse-memory, alphabet walks under the key).
+
+Open thread this suggests: C1's plaintext, if any, may not be PROSE -
+surveyor/bearing notation ("N32E 40 poles"-style, abbreviation- and
+number-dense) would defeat every English language model used so far while
+matching a "locality of the vault" document. A notation-aware scoring
+model is the natural next instrument.
