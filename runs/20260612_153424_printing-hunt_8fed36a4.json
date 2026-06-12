@@ -1,0 +1,105 @@
+{
+  "solver": "printing-hunt",
+  "target": "c2",
+  "params": {
+    "n_candidates": 5
+  },
+  "seed": null,
+  "criteria": {
+    "solver": "printing-hunt",
+    "target": "c2",
+    "statements": [
+      "HIT = P3 line-skip alone OR >=2 minor predicates at joint p<1e-3 under fetched base rates; any hit needs a second independent source"
+    ],
+    "digest": "65f74bcaa19b"
+  },
+  "results": {
+    "base_rates": {
+      "P1_extra_a": 0.0,
+      "P2_missing_the": 0.0,
+      "P3_line_skip": 0.0,
+      "P6_missing_out": 0.0,
+      "P7_missing_of": 0.0
+    },
+    "results": [
+      {
+        "source": "avalon",
+        "n_tokens": 1322,
+        "predicate_hits": {
+          "P1_extra_a": false,
+          "P2_missing_the": false,
+          "P3_line_skip": false,
+          "P6_missing_out": false,
+          "P7_missing_of": false
+        },
+        "slide_z": 20.124815540823985,
+        "drift_matches": 177,
+        "drift_pins": 180,
+        "breakpoints_matched": 2
+      },
+      {
+        "source": "nara",
+        "n_tokens": 1320,
+        "predicate_hits": {
+          "P1_extra_a": false,
+          "P2_missing_the": false,
+          "P3_line_skip": false,
+          "P6_missing_out": false,
+          "P7_missing_of": false
+        },
+        "slide_z": 19.44127469408771,
+        "drift_matches": 177,
+        "drift_pins": 180,
+        "breakpoints_matched": 2
+      },
+      {
+        "source": "gutenberg_1",
+        "n_tokens": 1323,
+        "predicate_hits": {
+          "P1_extra_a": false,
+          "P2_missing_the": false,
+          "P3_line_skip": false,
+          "P6_missing_out": false,
+          "P7_missing_of": false
+        },
+        "slide_z": 20.12320794519747,
+        "drift_matches": 177,
+        "drift_pins": 180,
+        "breakpoints_matched": 2
+      },
+      {
+        "source": "gutenberg_16780",
+        "n_tokens": 1320,
+        "predicate_hits": {
+          "P1_extra_a": false,
+          "P2_missing_the": false,
+          "P3_line_skip": false,
+          "P6_missing_out": false,
+          "P7_missing_of": false
+        },
+        "slide_z": 18.82185359888442,
+        "drift_matches": 177,
+        "drift_pins": 180,
+        "breakpoints_matched": 2
+      },
+      {
+        "source": "gutenberg_300",
+        "n_tokens": 1323,
+        "predicate_hits": {
+          "P1_extra_a": false,
+          "P2_missing_the": false,
+          "P3_line_skip": false,
+          "P6_missing_out": false,
+          "P7_missing_of": false
+        },
+        "slide_z": 20.12320794519747,
+        "drift_matches": 177,
+        "drift_pins": 180,
+        "breakpoints_matched": 2
+      }
+    ],
+    "hit_candidates": []
+  },
+  "started": 1781278464.2982287,
+  "elapsed_s": 0.0
+}

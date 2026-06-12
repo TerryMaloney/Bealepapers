@@ -1,0 +1,57 @@
+{
+  "solver": "doi-variants",
+  "target": "c3",
+  "params": {
+    "grid": "ext4 x (41 shifts + 40 affine + revnum) x 4 bases",
+    "n_nulls": 50
+  },
+  "seed": null,
+  "criteria": {
+    "solver": "doi-variants",
+    "target": "c1",
+    "statements": [
+      "hit only if grid max exceeds shuffled-null grid maxima by z>=4; grid preregistered as one unit"
+    ],
+    "digest": "87f863926ae5"
+  },
+  "results": {
+    "real_max": -4.137152683618147,
+    "null_mu": -3.995170485845548,
+    "null_sd": 0.06321146094223327,
+    "z": -2.246146436994262,
+    "top": [
+      {
+        "base": "adjusted-rev",
+        "extraction": "third",
+        "transform": "shift 29",
+        "score": -4.137152683618147
+      },
+      {
+        "base": "adjusted-rev",
+        "extraction": "third",
+        "transform": "shift 37",
+        "score": -4.148942441582856
+      },
+      {
+        "base": "adjusted",
+        "extraction": "third",
+        "transform": "shift 35",
+        "score": -4.149575257115911
+      },
+      {
+        "base": "pamphlet-rev",
+        "extraction": "third",
+        "transform": "shift 29",
+        "score": -4.153868859073319
+      },
+      {
+        "base": "adjusted",
+        "extraction": "third",
+        "transform": "shift 32",
+        "score": -4.162172493645046
+      }
+    ]
+  },
+  "started": 1781278274.965167,
+  "elapsed_s": 37.26
+}
