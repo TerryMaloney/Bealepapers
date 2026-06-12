@@ -1,0 +1,18 @@
+{
+  "comment": "Key-text edits that reconcile the pamphlet's printed DOI numbering with the numbering Beale actually used when encoding Cipher 2. Beale's copy skipped roughly ten words around word 467 and one word each near 621 and 648 (positions fitted empirically against the known plaintext; see oracle.py). Edits apply sequentially in order; positions are 1-indexed in the list as it stands when each edit is applied.",
+  "edits": [
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 467},
+    {"op": "delete", "at": 648},
+    {"op": "insert", "at": 487, "word": "the"},
+    {"op": "delete", "at": 621}
+  ]
+}

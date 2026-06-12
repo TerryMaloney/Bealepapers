@@ -1,0 +1,7 @@
+{
+  "comment": "Documented Cipher 2 homophone overrides. The DOI contains no words starting with x or y, so Beale repurposed two word numbers: 811 ('taking') stands for y and 1005 ('petitioned') stands for x. These map cipher numbers directly to letters and do not shift key-text indices.",
+  "overrides": {
+    "811": "y",
+    "1005": "x"
+  }
+}
