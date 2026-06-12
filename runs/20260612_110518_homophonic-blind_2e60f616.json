@@ -1,0 +1,30 @@
+{
+  "solver": "homophonic-blind",
+  "target": "c2",
+  "params": {
+    "iters": 250000,
+    "restarts": 48
+  },
+  "seed": 1885,
+  "criteria": {
+    "solver": "homophonic-blind",
+    "target": "c2",
+    "statements": [
+      "recovers >=90% of the known C2 plaintext from the 763 numbers alone"
+    ],
+    "digest": "9e2ab2ec6a55"
+  },
+  "results": {
+    "accuracy": 0.6186107470511141,
+    "best_score": -2528.225530810506,
+    "top5": [
+      0.6186107470511141,
+      0.6212319790301442,
+      0.563564875491481,
+      0.5255570117955439,
+      0.5557011795543906
+    ]
+  },
+  "started": 1781262318.682744,
+  "elapsed_s": 47.38
+}

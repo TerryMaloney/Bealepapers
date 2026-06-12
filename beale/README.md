@@ -1,5 +1,9 @@
 # beale — clean-room Beale cipher engine
 
+**See `FINDINGS.md` for the full investigation report** (C2 at 99.0%,
+Beale's key table reconstructed, shared-key hypothesis tests, keyless
+solvers, document fingerprinting).
+
 A small, tested, self-contained attack engine for the three Beale ciphers.
 It does not import any legacy module from the repo root; its only inputs are
 `beale_papers.txt` and (optionally) `corpus/keytexts/normalized/*.json`.

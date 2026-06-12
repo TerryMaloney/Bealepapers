@@ -1,0 +1,26 @@
+{
+  "solver": "homophonic-pinned",
+  "target": "c3",
+  "params": {
+    "cfg": "SolverConfig(iters=900000, restarts=16, t0=12.0, tf=0.3, lambda_ioc=400.0, use_quint=True, soft_pins=False, pin_bonus=8.0, seed=1885, stall_limit=160000, top_k=10)",
+    "soft": true
+  },
+  "seed": 1885,
+  "criteria": {
+    "solver": "homophonic-pinned",
+    "target": "c3",
+    "statements": [
+      "interpret free-position text only against the synthetic calibration",
+      "soft-pin violation <=10% supports shared key; >=30% rejects it",
+      "no solution claim without quadgram z>=4 vs shuffled null AND visible English in the rendered text"
+    ],
+    "digest": "940229b90daf"
+  },
+  "results": {
+    "score": -1098.5732193032,
+    "pin_violations": 0.45217391304347826,
+    "text": "hicarricarnthsoldagandetoateasapreewdatioafromdidnforbothatmesofthenametoeninranealeenottogemhressrtheoraterreancattachadtrewvedipairofoatesbeamontisaccessreitwastendeverstobelidchightnomencreanbrienufaaninerfanceoatestthateretheenestconandtosealiaolnenotfadsiraohsagartfeofbasmanarcoainraenotaroththejoomonaratthewhethichtofserthehadarksbisastigrecreewmisfainsmandanorbedartsatreordresountineoftherowbrandissconwarragitlewhofjteealbeighwrgasimgritestrueeofstactwelierrretheeashesereswdtitloseaninsprufinectinetyofafabctemtoevernthintheeitheenkinedtowasafellwearamiireturehooneatnerisinfaneartantbosultandearhoutholyth"
+  },
+  "started": 1781275358.9938865,
+  "elapsed_s": 118.85
+}

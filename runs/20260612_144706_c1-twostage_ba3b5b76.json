@@ -1,0 +1,40 @@
+{
+  "solver": "c1-twostage",
+  "target": "c1",
+  "params": {
+    "families": [
+      "mono",
+      "columnar",
+      "decimation"
+    ]
+  },
+  "seed": null,
+  "criteria": {
+    "solver": "c1-twostage",
+    "target": "c1",
+    "statements": [
+      "hit requires z>=4 vs identical search on shuffled nulls",
+      "plus visible English in rendered text"
+    ],
+    "digest": "b967bee0a3d1"
+  },
+  "results": {
+    "decimation": {
+      "score": -3.7513265359218697,
+      "z": 0.10587131872317342,
+      "transform": "k=23"
+    },
+    "columnar": {
+      "score": -3.7194945254147447,
+      "z": 0.47229843428488816,
+      "transform": "w=7 perm=(0, 6, 3, 2, 1, 4, 5)"
+    },
+    "mono": {
+      "score": -3.580061891443257,
+      "z": -2.0379667061463635,
+      "transform": "perm=thinsofulkbywamcjgdepvrqxz"
+    }
+  },
+  "started": 1781275626.6721065,
+  "elapsed_s": 43.96
+}
