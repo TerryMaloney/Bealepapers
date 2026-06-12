@@ -325,3 +325,28 @@ archive search remains a human task with runs/wanted_poster.md.
   differing only on locality/reuse - consistent with one author (or one
   generation pipeline) behind all three streams, operating with different
   discipline per cipher.
+
+## Phase 4f — C3 number-pattern battery (5 signals) + name-ping hunt
+
+10 shuffle-calibrated probes on C3's raw numbers:
+- **Suppressed resets (z=-9.2)**: only 57 big downward jumps vs 106
+  expected - the stream climbs in long ascents and avoids dropping.
+- **Irregular segment lengths (z=+3.2)**: ascent lengths range 1-41,
+  MORE irregular than chance. A tidy 30-record list (618/30 ~ 20.6) is
+  NOT what the structure shows; if it is a list, record lengths vary
+  wildly (long residences/heir clauses?) or the segmentation is illusory.
+- **Weak periodicity at lags 15-35 (z=+3.0).**
+- **Extreme banding (runs z=-10.0).**
+- **Cross-segment number sharing (z=+12.4)**: the ~58 ascending sweeps
+  re-draw from a SHARED low-number pool - the author restarts near the
+  "top of the page" and re-walks the same region, sweep after sweep.
+  Generative picture: restart-and-walk with wildly varying sweep lengths.
+- Null: within-segment slope, #96 spacing, lead-digit repeats,
+  near-duplicates, segment-start concentration (|z| < 3).
+
+Known-associates name hunt (34 period names incl. beale/morriss/buford/
+ward/witcher/otey/leftwich/callaway...) against C3's verified pins
+(>=4 pinned letters, 0 conflicts): **0 pings** (chance 0.0) - no associate
+name is compatible with Beale's-key letters at any C3 position; consistent
+with the established shared-key rejection. Caveat: tests first-letter
+encoding under Beale's key only; names under an unknown key remain open.
