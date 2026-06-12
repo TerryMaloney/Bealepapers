@@ -302,3 +302,26 @@ model is the natural next instrument.
   every corpus key text; a survey plaintext under an UNKNOWN key remains
   untestable until a key candidate exists. The LM and lexicon are now
   permanent equipment for scoring any future candidate decode.
+
+## Phase 4e — unconscious-pattern battery on C1 (10 probes) + hunt re-check
+
+Poster hunt re-run: still no fetchable printing showing any Beale variant
+(5 clean DOI sources; IA full-text unreachable from this network). The
+archive search remains a human task with runs/wanted_poster.md.
+
+10-probe battery on C1's raw numbers (shuffle-calibrated):
+- **SIGNAL: leading-digit alternation (z=-3.6).** Adjacent numbers share a
+  leading digit far LESS than chance (53 vs 79) - even though their VALUES
+  correlate positively. The author hopped between adjacent magnitude bands
+  (80s -> 110s -> 90s...) while avoiding same-band repeats: a deliberate-
+  variation fingerprint typical of hand-fabricated "random" sequences.
+- **SIGNAL: median-runs (z=-4.9).** Long stretches above/below the median -
+  the banding behind the +0.25 locality, now quantified.
+- Null: near-duplicate clustering, round-number rhythm, zigzag entropy,
+  periodicity (lags 2-40), second-digit chi2, block trends, small-number
+  burstiness (|z| < 1.2 each).
+- **Same-hand evidence: the habit vectors of C1, C2, C3 are IDENTICAL on
+  sign-entropy (2.86-2.87) and leading-1 share (0.27-0.29)** while
+  differing only on locality/reuse - consistent with one author (or one
+  generation pipeline) behind all three streams, operating with different
+  discipline per cipher.
