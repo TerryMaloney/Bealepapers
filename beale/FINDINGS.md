@@ -383,3 +383,27 @@ New tests run (with the packet's evidence labels):
   (65% vs 53%, ~z 1.7): lead, not signal. A targeted test (do C2's
   homophones for letter X concentrate inside C1's letter-X run?) is the
   natural follow-up.
+
+## Phase 5b — the worksheet test resolves the Gillogly run: PRACTICE BEHAVIOR
+
+Letter-resolved rank analysis (rank of each run number within its letter's
+full index list in Beale's adjusted DOI):
+- Across all 12 runs: mean rank-std 30 vs random-pick baseline 44, mean
+  within-run ascending fraction 56% - neither pure worksheet-column
+  (rank-std ~0) nor pure forward-scan doodle (ascending ~100%).
+- **The famous Gillogly run @187-204 converges to RANK 1**:
+  a17 b13 c8 d11 e3 f2 g2 h1 i6 i2 j1 k1 l1 m1. Its tail takes the FIRST
+  occurrence in the document of each successive letter (first h-word,
+  first j/k/l/m-words). Under random same-letter choice the rank-1
+  convergence on the tail letters is ~1e-3 improbable.
+- Interpretation (new): the cleanest alphabet run is PRACTICE or
+  DEMONSTRATION encoding - someone learning or showing the DOI system by
+  enciphering the alphabet, grabbing each letter's most findable (first)
+  instance, starting sloppily (a17, b13) and becoming systematic (rank 1)
+  as the alphabet proceeds. Run @82-94 shows the same low-rank tendency
+  (b2 c3 c4 d4...); the other runs are messier.
+- This sharpens the C1 verdict: at least its cleanest alphabetical
+  structure is encoding PRACTICE with the real C2 key, embedded inside a
+  number stream that otherwise matches the author's habits but no message
+  model - strongly consistent with C1 being a constructed/filler document
+  produced by someone who possessed and practiced the genuine C2 system.
