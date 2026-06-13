@@ -350,3 +350,36 @@ ward/witcher/otey/leftwich/callaway...) against C3's verified pins
 name is compatible with Beale's-key letters at any C3 position; consistent
 with the established shared-key rejection. Caveat: tests first-letter
 encoding under Beale's key only; names under an unknown key remain open.
+
+## Phase 5 — external test-packet triage (GPT/Gemini lists) + new battery
+
+Already answered by prior phases: changepoints (C1 stationary), C3
+generator fit (lazy-local-forward closest), key-string provenance (the
+Gillogly string survives Beale's own reconstructed key, appears in no
+other transform, absent from controls), cross-cipher overlap counts, C3
+source-size density, segment scans, structural fingerprints.
+
+New tests run (with the packet's evidence labels):
+- Grid-coordinate split (page/word): KILLED BY CONTROL - genuine C2 shows
+  the same "bounded remainder" pattern as C1/C3 (low-skew artifact).
+- Deinterleaving k=2..4 (polyalphabetic rotation): substreams LOSE all
+  locality (lag-1 ~ 0 vs whole-stream +0.25) - C1's structure lives in
+  directly adjacent pairs; no rotation. HARD FACT, hypothesis killed.
+- Delta-as-cipher (|diff| mod 26): null for C1 and C3.
+- Table-width residue scan w=2..80: C2 (genuine) has the LARGEST peak
+  (z=29.8 at w=65, favorite-number reuse) - residue peaks are NOT table
+  evidence. C1's w=2 parity bias and C3's w=50 noted as curiosities.
+- **C2 author-selection generator (HARD FACTS, the packet's best test)**:
+  the genuine encoder picked the LOWEST-index homophone with massive bias
+  (mean chosen rank 0.10 vs 0.5 uniform) and a near-quartile option 74%
+  of the time. All three ciphers share extreme low-bias (median/max:
+  C1 0.042, C2 0.085, C3 0.097) - C1 is even more low-biased than the
+  genuine cipher. The author habit transfers.
+- **WORKSHEET HYPOTHESIS (new, ours): EXPLORATORY LEAD.** C2's numbers
+  preferentially coincide with C1's alphabetical-run regions (50% vs 35%
+  of non-run numbers, z=+2.7 raw) - consistent with C1's alphabet runs
+  being table-building scratch work connected to the C2 encoding session.
+  Magnitude-controlled (<=350) the differential persists but shrinks
+  (65% vs 53%, ~z 1.7): lead, not signal. A targeted test (do C2's
+  homophones for letter X concentrate inside C1's letter-X run?) is the
+  natural follow-up.
