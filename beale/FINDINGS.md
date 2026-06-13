@@ -407,3 +407,26 @@ full index list in Beale's adjusted DOI):
   number stream that otherwise matches the author's habits but no message
   model - strongly consistent with C1 being a constructed/filler document
   produced by someone who possessed and practiced the genuine C2 system.
+
+## Phase 5c — C3 letter-intent test: the walker wasn't hunting letters
+
+The discriminating question for C3's ascending sweeps: when stepping from
+number a to number b, did the author land on the FIRST instance of b's
+letter after position a (letter-targeting = encoding intent), or land at
+positions whose letters are incidental (position-dragging)?
+
+- **C3: exactly chance (87 first-instance landings vs 88 expected,
+  z=-0.1).** Zero letter-targeting with respect to Beale's DOI. The
+  sweeps are movement through POSITIONS, not searches for letters.
+- C1: z=+1.2 (mild); genuine C2: z=+1.7 (weak positive, as expected for
+  a non-walking encoder).
+- Scope: this is decisive only against Beale's own key; letter-intent
+  toward an unknown second text remains untestable without that text.
+
+Combined verdict across phases: one hand produced all three streams
+(habit-vector match); C2 is genuine encoding; C1 embeds rank-1-converging
+PRACTICE alphabets in habit-bearing filler; C3 is a mechanical position
+walk with no letter intent toward the only key known to exist. The
+remaining live hypothesis for a genuine C1/C3 message requires a second
+physical key text - precisely the object the wanted poster and dossier
+were built to find.
