@@ -430,3 +430,26 @@ walk with no letter intent toward the only key known to exist. The
 remaining live hypothesis for a genuine C1/C3 message requires a second
 physical key text - precisely the object the wanted poster and dossier
 were built to find.
+
+## Phase 5d — user-supplied volume: "The American's Guide" (HathiTrust, 1820s-30s)
+
+Tested THE AMERICAN'S GUIDE (Declaration, Articles of Confederation, US
+Constitution, and the state constitutions; 222,742 tokens) - the exact
+compilation genre the one-book hypothesis predicted:
+- **WANTED-POSTER PING: predicate P1 HITS** - this volume reads "to
+  institute A new government", the extra-word variant of Beale's copy
+  (base rate 0.0 among all modern transcriptions). Beale's DOI belonged
+  to this textual family. The line-skip (P3) and other variants are
+  absent: same family, not his exact printing.
+- C2 keytable drift-aligns to the volume's DOI (159/180 within a small
+  drift band) - close to, but not identical with, Beale's copy.
+- Full-volume offset sweep of C1 and C3 (two-stage, ~110k offsets each):
+  best offsets reach raw z~4 but fail the extreme-value standard for that
+  search budget, decode to non-language, and C1/C3 "peak" at the same two
+  text regions (letter-frequency artifacts of those pages). NO KEY MATCH.
+
+Net: the volume eliminates itself as the key but CONFIRMS the hunt
+strategy - the American's Guide family carries Beale's P1 variant, so the
+target printing is a sibling edition of this genre with the dropped line.
+Earlier editions/printings of The American's Guide (and its sources) are
+now the top archive targets.
