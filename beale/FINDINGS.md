@@ -453,3 +453,21 @@ strategy - the American's Guide family carries Beale's P1 variant, so the
 target printing is a sibling edition of this genre with the dropped line.
 Earlier editions/printings of The American's Guide (and its sources) are
 now the top archive targets.
+
+## Phase 5e — two American's Guide editions adjudicated; the poster refined
+
+User-supplied checks: Harvard volume (earlier ed.) and Philadelphia 1830
+(Towar & Hogan) both HIT P1 ("institute A new government") and miss every
+other variant (line intact, "the/out/of" all present).
+
+**Refined synthesis**: Beale's single ADDITION variant (P1) is a real
+print-family marker - his source was an American's Guide-family
+compilation. His four OMISSIONS (the ten-word line + "the", "out", "of")
+are all omissions-only, the classic signature of HAND-COPYING slips
+(eye-skips between repeated "He has" clauses). Most likely there is no
+printed edition with the missing line: Beale hand-copied his key sheet
+from a P1-family compilation, dropping a line and three small words.
+The hunt target accordingly shifts from "a printing with these errors"
+to "pre-1822 P1-family compilations" (earlier American's Guide /
+Constitutions editions), with the omissions expected to live only on
+his lost handwritten sheet.
